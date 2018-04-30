@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/yuyin" android:title="语音播报"/>
+    <item android:id="@+id/fenxiang" android:title="分享天气"/>
+    <item android:id="@+id/shezhi" android:title="设置"/>
+</menu>
