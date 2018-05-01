@@ -582,7 +582,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="30dp"
-                android:textSize="10sp"
+                android:textSize="12sp"
                 android:text="@string/text_name"
                 android:textAlignment="center"/>
         </LinearLayout>
@@ -597,7 +597,7 @@
             android:id="@+id/iv_bottom_left"
             android:layout_width="35dp"
             android:layout_height="35dp"
-            android:clickable="true"
+            android:focusable="true"
             android:src="@mipmap/ic_launcher"
             android:paddingLeft="5dp"/>
         <ImageView
