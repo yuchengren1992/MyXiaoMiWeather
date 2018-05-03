@@ -15,7 +15,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".CityManagerActivity"></activity>
+        <activity android:name=".CityManagerActivity" />
+        <activity android:name=".AddCityActivity" />
+        <activity android:name=".SearchViewDemo"></activity>
     </application>
 
 </manifest>

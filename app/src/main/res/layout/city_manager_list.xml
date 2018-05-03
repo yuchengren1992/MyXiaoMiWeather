@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    android:id="@+id/rl_holder"
+    android:clickable="true">
+    <TextView
+        android:id="@+id/city2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/text_name"
+        android:textSize="30sp" />
+    <TextView
+        android:layout_below="@id/city2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/text_name"
+        android:textSize="20sp"
+        android:id="@+id/city1" />
+    <TextView
+        android:id="@+id/c"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=".C"
+        android:layout_alignParentEnd="true"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:id="@+id/big_wendu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/city1"
+        android:layout_toStartOf="@+id/c"
+        android:text="50"
+        android:textSize="75sp" />
+    <View
+        android:id="@+id/zhixian"
+        android:layout_alignBottom="@id/city2"
+        android:layout_width="match_parent"
+        android:layout_height="10sp"
+        android:layout_below="@id/city1"
+        />
+    <TextView
+        android:id="@+id/kongqi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:text="@string/text_name"
+        android:layout_alignTop="@id/zhixian"/>
+    <TextView
+        android:id="@+id/shidu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:text="@string/text_name"
+        android:layout_toRightOf="@id/kongqi"
+        android:layout_alignTop="@id/zhixian"
+        android:paddingLeft="15dp"/>
+    <TextView
+        android:id="@+id/fengli"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:text="@string/text_name"
+        android:layout_alignTop="@id/zhixian"
+        android:layout_toRightOf="@id/shidu"
+        android:paddingLeft="15dp"/>
+    <TextView
+        android:id="@+id/wendu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@id/zhixian"
+        android:text="50/65.C"
+        android:textSize="20sp"/>
+    <ImageView
+        android:id="@+id/tubiao"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:src="@mipmap/ic_launcher"
+        android:layout_toLeftOf="@id/big_wendu"
+        android:paddingTop="10dp"
+        />
+</RelativeLayout>
