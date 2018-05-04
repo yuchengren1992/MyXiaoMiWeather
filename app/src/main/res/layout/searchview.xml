@@ -8,11 +8,33 @@
         android:id="@+id/searchView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        app:iconifiedByDefault="false"
+        app:iconifiedByDefault="true"
         app:defaultQueryHint="输入搜索内容"/>
-    <ListView
-        android:id="@+id/listView"
+    <FrameLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
-    </ListView>
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        </LinearLayout>
+        <!--<android.support.v7.widget.RecyclerView-->
+            <!--android:id="@+id/rv_hotcity"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:orientation="horizontal">-->
+        <!--</android.support.v7.widget.RecyclerView>-->
+        <ListView
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:id="@+id/listView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        </ListView>
+        <!--<TextView-->
+            <!--android:id="@+id/no_city_message"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="match_parent"-->
+            <!--android:gravity="center"/>-->
+    </FrameLayout>
+
 </LinearLayout>
